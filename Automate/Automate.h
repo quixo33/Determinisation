@@ -14,16 +14,24 @@
 #include <set>
 
 class Automate{
-
-    private :
-    
     
 private:
+    
+    int _nombreEtats;
+    std::set<int> _etatsInitiaux;
+    std::set<int> _etatsTerminaux;
+    std::vector<std::vector<std::set<int>>> _transitions;
     
 public:
     
     Automate();
     ~Automate();
+    
+    void chargerDonnees(const std::string nomFichier);
+    void afficherAutomateNonDeterministe() const;
+    void construireAutomateNonDeterministe();
+    void determiniser();
+    void affichageFinal();
     
 };
 
