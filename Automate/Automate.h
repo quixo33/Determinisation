@@ -18,6 +18,13 @@ class Automate{
     private :
     
     
+private:
+    
+public:
+    
+    Automate();
+    ~Automate();
+    
 };
 
 #endif /* defined(__Automate__Automate__) */
