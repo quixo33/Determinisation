@@ -12,8 +12,6 @@
 #include <iostream>
 #include <fstream>
 
-<<<<<<< HEAD
-=======
 using namespace std;
 
 void loadData(string nomDuFichier, int & nbEtatAutomate, list<int> & etatsInitiaux, list<int> & etatsTerminaux ){
@@ -23,5 +21,3 @@ void loadData(string nomDuFichier, int & nbEtatAutomate, list<int> & etatsInitia
         cout << "ouverture en lecture impossible " << endl ;
     
 }
-    
->>>>>>> 5d1338dc4a3e8a2f55061ef8cde534ac7d542634
