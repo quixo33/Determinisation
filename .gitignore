@@ -1,0 +1,6 @@
+#xcode
+*.xcodeproj
+*.save
+
+#mac
+.DS_Store
