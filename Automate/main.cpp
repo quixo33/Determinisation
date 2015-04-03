@@ -8,8 +8,10 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <fstream>
+
 #include "lectureFichier.cpp"
+#include "const.h"
+#include "automate.cpp"
 
 int main(int argc, const char * argv[]) {
 
