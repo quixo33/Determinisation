@@ -11,4 +11,8 @@
 
 #include <stdio.h>
 
+class Automate{
+    
+};
+
 #endif /* defined(__Automate__Automate__) */
