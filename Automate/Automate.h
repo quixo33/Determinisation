@@ -10,8 +10,13 @@
 #define __Automate__Automate__
 
 #include <stdio.h>
+#include <vector>
+#include <set>
 
 class Automate{
+
+    private :
+    
     
 };
 
