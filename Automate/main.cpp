@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
+#include "lectureFichier.cpp"
 
 int main(int argc, const char * argv[]) {
 
